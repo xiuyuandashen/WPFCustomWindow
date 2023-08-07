@@ -12,6 +12,11 @@ namespace WindowDragSize.Views
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 拖动窗体
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void MovingWindow(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             DragMove();
